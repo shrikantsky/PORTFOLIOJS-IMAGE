@@ -1,4 +1,14 @@
-
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('fonts/fontawesome-webfont.eot?v=4.2');
+    src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.2') format('embedded-opentype'),
+        url('fonts/fontawesome-webfont.svg#fontawesomeregular?v=4.2') format('svg'),
+        url('fonts/fontawesome-webfont.woff?v=4.2') format('woff'),
+        url('fonts/fontawesome-webfont.ttf?v=4.2') format('truetype');
+    font-weight: normal;
+    font-display: block;
+    font-style: normal;
+}
 
 i[class^="icon-"],
 [class*=" icon-"],
@@ -7012,7 +7022,14 @@ html{
 	overflow-y: scroll;
 	overflow-x:hidden;
 }
-
+body{
+  max-width: 100%;
+	overflow: hidden;
+  background:white;
+  font-family:'Open Sans',sans-serif;
+  color:#676767;
+  position:relative
+}
 ol, ul{
   list-style:none
 }
@@ -32083,77 +32100,5 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 	
 	
 	
-
-	
-	
-
-	
-
-	#footer-outer .widget h4,
-      #sidebar h4,
-      #call-to-action .container a,
-      .uppercase,
-      .nectar-post-grid-wrap .load-more,
-      .nectar-button,
-      .nectar-button.medium,
-      .nectar-button.small,
-      .nectar-view-indicator span,
-      .nectar-3d-transparent-button,
-      .swiper-slide .button a,
-      .play_button_with_text span[data-font*="btn"],
-      body .widget_calendar table th,
-      body #footer-outer #footer-widgets .col .widget_calendar table th,
-      body:not([data-header-format="left-header"]) #header-outer nav > ul > .megamenu > ul > li > a,
-      .carousel-heading h2, body .gform_wrapper .top_label .gfield_label,
-      body .vc_pie_chart .wpb_pie_chart_heading,
-      #infscr-loading div, #page-header-bg .author-section a,
-      .ascend input[type="submit"], .ascend button[type="submit"],
-      .material input[type="submit"],
-      .material button[type="submit"],
-      body.material #page-header-bg.fullscreen-header .inner-wrap >a,
-      #page-header-bg[data-post-hs="default_minimal"] .inner-wrap > a,
-      .widget h4, .text-on-hover-wrap .categories a,
-      .meta_overlaid article.post .post-header h3,
-      .meta_overlaid article.post.quote .post-content h3,
-      .meta_overlaid article.post.link .post-content h3,
-      .meta_overlaid article .meta-author a,
-      .pricing-column.highlight h3 .highlight-reason,
-      .blog-recent[data-style="minimal"] .col > span,
-      body .masonry.classic_enhanced .posts-container article .meta-category a,
-      body .masonry.classic_enhanced .posts-container article.wide_tall .meta-category a,
-      .blog-recent[data-style*="classic_enhanced"] .meta-category a,
-      .nectar-recent-posts-slider .container .strong,
-      .single .heading-title[data-header-style="default_minimal"] .meta-category a,
-      .nectar-fancy-box .link-text,
-      .post-area.standard-minimal article.post .post-meta .date a,
-      .post-area.standard-minimal article.post .more-link span,
-      body[data-button-style="rounded"] #pagination > a,
-      html body #pagination > span,
-      body[data-form-submit="see-through-2"] input[type=submit],
-      body[data-form-submit="see-through-2"] button[type=submit],
-      body[data-form-submit="see-through"] input[type=submit],
-      body[data-form-submit="see-through"] button[type=submit],
-      body[data-form-submit="regular"] input[type=submit] body[data-form-submit="regular"] button[type=submit],
-      .nectar_team_member_overlay .team_member_details .title,
-      body:not([data-header-format="left-header"]) #header-outer nav > ul > .megamenu > ul > li > ul > li.has-ul > a,
-      .nectar_fullscreen_zoom_recent_projects .project-slide .project-info .normal-container > a,
-      .nectar-hor-list-item .nectar-list-item-btn,
-      .nectar-category-grid-item .content span.subtext,
-      .yikes-easy-mc-form .yikes-easy-mc-submit-button,
-      .nectar-cta .nectar-button-type,
-      .nectar-post-grid-wrap .nectar-post-grid-filters h4 { letter-spacing: -0.15px; font-size:13px;  }
-	
-
-	/*
-Theme Name: Salient Child Theme
-Description: This is a custom child theme for Salient
-Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
-Author: ThemeNectar
-Author URI:  https://themeforest.net/user/themenectar
-Template: salient
-Version: 1.0
-*/
-
-
 
 
