@@ -397,32 +397,6 @@
 
 
 		/*
-* === MENU LABEL ===
-* Menu Label changed to 'Contact' - located in Nectar>helpers>header.php
-*/
-
-		@media only screen and (min-width: 1000px) {
-			.lines-button {
-				visibility: hidden;
-			}
-
-			body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .slide-out-widget-area-toggle a i.label {
-				margin-right: -22px !important;
-				opacity: 0.75 !important;
-				transition: opacity 0.2s ease, color 0.2s ease;
-			}
-
-			body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .slide-out-widget-area-toggle a:hover i.label {
-				opacity: 1 !important;
-			}
-		}
-
-		@media only screen and (max-width: 999px) {
-
-			i.label {
-				visibility: hidden;
-			}
-		}
 
 
 		/*
@@ -438,90 +412,5 @@
 		}
 
 
-		/*
-* === CONTACT FORM ===
-*/
-
-
-		body[data-form-style="minimal"] input[type="text"],
-		body[data-form-style="minimal"] textarea,
-		body[data-form-style="minimal"] input[type="email"],
-		body[data-form-style="minimal"] input[type=password],
-		body[data-form-style="minimal"] input[type=tel],
-		body[data-form-style="minimal"] input[type=url],
-		body[data-form-style="minimal"] input[type=search],
-		body[data-form-style="minimal"] input[type=date],
-		body[data-form-style="minimal"] select {
-			padding: 10px 0 10px 0 !important;
-			font-size: 15px !important;
-			font-family: inherit !important;
-			line-height: 15px !important;
-			color: #f8f4ec !important;
-			background-color: transparent !important;
-			border-bottom-width: 1px !important;
-			font-weight: 100 !important;
-		}
-
-		::-webkit-input-placeholder {
-			color: #f8f4ec !important;
-		}
-
-		input[type=submit],
-		button[type=submit],
-		input[type="button"] {
-			background-color: rgba(0, 0, 0, 0.25);
-			color: #f8f4ec;
-			border-style: solid;
-			border-width: 1px;
-			border-color: #f8f4ec;
-			border-radius: 0px !important;
-		}
-
-
-		.wpcf7 .wpcf7-response-output {
-			background-color: rgba(0, 0, 0, 0.25);
-			font-family: t26-carbon, monospace;
-			font-weight: 100;
-			margin: 5px 0 5px 0 !important;
-			padding: 5px 10px 5px 10px !important;
-		}
-
-
-		.grecaptcha-badge {
-			display: none;
-		}
-
-		/*
-* === FOOTER ===
-*/
-
-
-		#footer-outer #copyright[data-layout="centered"] {
-			padding: 30px 0 !important;
-		}
-
-
-		/*
-* === POSTS ===
-*/
-
-		.nectar-social.fixed {
-			display: none;
-		}
-
-		body.single-post.material[data-bg-header="true"] .container-wrap,
-		#sidebar h4 {
-			background-color: #f8f4ec !important;
-			color: #1a1a1a;
-		}
-
-
-		.theiaStickySidebar {
-			padding-left: 40px;
-			border-left: 1px;
-			border-left-color: #1a1a1a;
-			border-left-width: 1px;
-			border-left-style: solid;
-		}
 
 
