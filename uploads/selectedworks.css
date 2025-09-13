@@ -31214,21 +31214,21 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#ajax-content-wrap .nectar-shop-header-bottom .widget_layered_nav_filters ul li a {letter-spacing: -0.25px; font-size:15px; line-height:22px; }.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {line-height:22px;}
 		 @media only screen and (max-width: 1300px) and (min-width: 1000px) {
 			 body {
-				 font-size: 15px;
-				 line-height: 22px;
+				 font-size: 15px !important;
+				 line-height: 22px !important;
 			 }
 		 }
 		 @media only screen and (max-width: 999px) and (min-width: 690px) {
 			 body {
-				 font-size: 15px;
-				 line-height: 22px;
+				 font-size: 15px !important;
+				 line-height: 22px !important;
 			 }
 
 		 }
 		 @media only screen and (max-width: 690px) {
 			 body {
-				 font-size: 15px;
-				 line-height: 22px;
+				 font-size: 15px !important;
+				 line-height: 22px !important;
 			 }
 
 		 }
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
