@@ -7011,10 +7011,10 @@ html{
 	overflow-x:hidden;
 }
 body{
-  max-width: 100%;
-  background:white;
-  color:#676767;
-  position:relative
+  max-width: 100% !important;
+  background:white !important;
+  color:#676767 !important;
+  position:relative !important
 }
 ol, ul{
   list-style:none
@@ -7041,13 +7041,13 @@ menu, nav, section{
 
 
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
 }
 
 :root {
-	--scroll-bar-w: -2px;
+	--scroll-bar-w: -2px !important;
 }
 
 /* Main container */
@@ -7072,11 +7072,11 @@ header .row {
 .col:after,
 .clr:after,
 .group:after {
-	content: "";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+	content: "" !important;
+	display: block !important;
+	height: 0 !important;
+	clear: both !important;
+	visibility: hidden !important;
 }
 
 
@@ -7090,40 +7090,40 @@ div.clear {
 @media (min-width: 690px) {
 
 	.span_1 {
-		width: 6.5%;
+		width: 6.5% !important;
 	}
 	.span_2 {
-		width: 15.0%;
+		width: 15.0% !important;
 	}
 	.span_3 {
-		width: 23.5%;
+		width: 23.5% !important;
 	}
 	.span_4 {
-		width: 32.0%;
+		width: 32.0% !important;
 	}
 	.span_5 {
-		width: 40.5%;
+		width: 40.5% !important;
 	}
 	.span_6 {
-		width: 49.0%;
+		width: 49.0% !important;
 	}
 	.span_7 {
-		width: 57.5%;
+		width: 57.5% !important;
 	}
 	.span_8 {
-		width: 66.0%;
+		width: 66.0% !important;
 	}
 	.span_9 {
-		width: 74.5%;
+		width: 74.5% !important;
 	}
 	.span_10 {
-		width: 83.0%;
+		width: 83.0% !important;
 	}
 	.span_11 {
-		width: 91.5%;
+		width: 91.5% !important;
 	}
 	.span_12 {
-		width: 100%;
+		width: 100% !important;
 	}
 
 }
@@ -7135,11 +7135,11 @@ div.clear {
 /*---------------------*/
 
 body{
-  font-size:14px;
+  font-size:14px !important;
   -webkit-font-smoothing: antialiased;
-  font-family:'Open Sans';
-  font-weight:400;
-  line-height:26px;
+  font-family:'Open Sans' !important;
+  font-weight:400 !important;
+  line-height:26px !important;
 }
 body:not(.nectar-no-flex-height) {
   display: flex;
@@ -7155,9 +7155,9 @@ body:not(.nectar-no-flex-height) #ajax-content-wrap,
 body:not(.nectar-no-flex-height) #ajax-content-wrap .blurred-wrap,
 body:not(.nectar-no-flex-height) .ocm-effect-wrap,
 body:not(.nectar-no-flex-height) .ocm-effect-wrap-inner {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-grow: 1 !important;
 }
 body:not(.nectar-no-flex-height) .container-wrap {
   flex-grow: 1;
@@ -7187,7 +7187,7 @@ body .ui-widget{
 	}
 }
 #header-outer .screen-reader-text {
-	height: 1px;
+	height: 1px !important;
 }
 .overflow-x-hidden{
   overflow-x:hidden
@@ -7202,16 +7202,16 @@ body .ui-widget{
 	display: block;
 }
 .alignleft{
-  float:left;
-  margin-right:15px
+  float:left !important;
+  margin-right:15px !important
 }
 .alignright{
   float:right;
   margin-left:15px
 }
 .aligncenter{
-  display:block;
-  margin:15px auto
+  display:block !important;
+  margin:15px auto !important
 }
 .no-bottom-padding{
   padding-bottom:0
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
