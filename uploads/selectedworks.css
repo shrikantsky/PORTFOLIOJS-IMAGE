@@ -5173,7 +5173,7 @@ html body .full-width-content.vc_row-fluid .span_12 {
 
   .vc_row-fluid[data-column-margin="20px"] > .span_12 > .one-fourths:not([class*="vc_col-xs-"]),
   .vc_row-fluid .vc_row-fluid.inner_row[data-column-margin="20px"] > .span_12 > .one-fourths:not([class*="vc_col-xs-"]) {
-    margin-bottom: 20px!important;
+    margin-bottom: 20px !important;
   }
 
   body[data-col-gap="30px"] .vc_row-fluid:not(.inner_row):not(.full-width-content) > .span_12 > .one-fourths:not([class*="vc_col-xs-"]),
@@ -5470,7 +5470,7 @@ body[data-col-gap] .vc_row-fluid .span_12.post-area {
 
 @media only screen and (max-width: 999px) and (min-width: 691px) {
   .wpb_column.col.no-extra-padding_tablet > .vc_column-inner,
-  .full-width-content .wpb_column.col.no-extra-padding_tablet > .vc_column-inner { padding: 0; }
+  .full-width-content .wpb_column.col.no-extra-padding_tablet > .vc_column-inner { padding: 0 !important; }
 }
 
 /* Mobile */
@@ -5636,14 +5636,14 @@ body[data-col-gap] .vc_row-fluid .span_12.post-area {
 
 @media only screen and (max-width: 999px) {
 
-  .full-width-content .col.padding-1-percent > .vc_column-inner { padding: calc(100vw * 0.01); }
+  .full-width-content .col.padding-1-percent > .vc_column-inner { padding: calc(100vw * 0.01) !important; }
 
   .full-width-content .col.padding-2-percent > .vc_column-inner,
-  .full-width-content .col.padding-3-percent > .vc_column-inner { padding: calc(100vw * 0.03); }
+  .full-width-content .col.padding-3-percent > .vc_column-inner { padding: calc(100vw * 0.03)!important; }
 
   .full-width-content .col.padding-4-percent > .vc_column-inner,
   .full-width-content .col.padding-5-percent > .vc_column-inner,
-  .full-width-content .col.padding-6-percent > .vc_column-inner { padding: calc(100vw * 0.06); }
+  .full-width-content .col.padding-6-percent > .vc_column-inner { padding: calc(100vw * 0.06)!important; }
 
 
 }
@@ -23361,10 +23361,10 @@ body.material #header-outer:not([data-format="left-header"]) .cart-wrap {
 }
 @media only screen and (max-width: 999px) {
   body.material #header-outer[data-format="left-header"] .cart-wrap {
-    margin-right: 0;
-    top: -5px;
-    right: -9px;
-    color: #fff;
+    margin-right: 0 !important;
+    top: -5px !important;
+    right: -9px !important;
+    color: #fff !important;
   }
 }
 
@@ -25295,7 +25295,7 @@ body[data-button-style*="_shadow"] .container-wrap .span_12.light input[type="su
 }
 @media only screen and (max-width: 999px) {
   #top .slide-out-widget-area-toggle a .close-wrap {
-    height: 20px;
+    height: 20px !important;
   }
 }
 #top .slide-out-widget-area-toggle .open .close-wrap,
@@ -27784,22 +27784,22 @@ body .wpb_gallery_slides ul li {
 @media only screen and (max-width: 999px) and (min-width: 690px) {
 .vc_row.vc_row-flex > .span_12, .vc_row.vc_row-flex > .span_12 > .vc_column_container.one-fourths,
 .vc_row.vc_row-flex>.span_12>.vc_column_container.one-fourths>.vc_column-inner {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
 }
 }
 
 .vc_row.vc_row-o-columns-stretch.vc_row-o-full-height > .span_12 {
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
+    -webkit-align-content: stretch !important;
+    -ms-flex-line-pack: stretch !important;
+    align-content: stretch !important;
 }
 .vc_row.vc_row-o-columns-top.vc_row-o-full-height > .span_12 {
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
+    -webkit-align-content: flex-start !important;
+    -ms-flex-line-pack: start !important;
+    align-content: flex-start !important;
 }
 .vc_row.vc_row-o-columns-bottom.vc_row-o-full-height > .span_12 {
     -webkit-align-content: flex-end!important;
@@ -27807,9 +27807,9 @@ body .wpb_gallery_slides ul li {
     align-content: flex-end!important;
 }
 .vc_row.vc_row-o-columns-middle.vc_row-o-full-height > .span_12 {
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
 }
 .vc_row.vc_row-o-columns-bottom > .span_12::after, .vc_row.vc_row-o-columns-middle > .span_12::after, .vc_row.vc_row-o-columns-top > .span_12::after {
     content: '';
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
