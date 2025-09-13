@@ -9430,7 +9430,7 @@ body.using-mobile-browser .nectar-slider-wrap .slide-bg-wrap .video-wrap {
   display:none!important
 }
 .wpb_row >.span_12{
-  z-index:10;
+  z-index:10 !important;
 }
 
 .wpb_row >.span_12{
@@ -9438,11 +9438,11 @@ body.using-mobile-browser .nectar-slider-wrap .slide-bg-wrap .video-wrap {
 }
 
 .wpb_row >.span_12 >.column_container:last-child{
-  margin-bottom:0;
+  margin-bottom:0 !important;
 }
 
 #page-header-bg .container{
-  z-index:100
+  z-index:100 
 }
 
 
@@ -9493,10 +9493,10 @@ body .full-width-section {
 .full-width-section .row-bg,
 #page-header-bg .page-header-bg-image-wrap {
   position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+  top:0 !important;
+  left:0 !important;
+  width:100% !important;
+  height:100% !important;
   background-size:cover;
   -webkit-background-size:cover
 }
@@ -9670,7 +9670,7 @@ body[data-ajax-transitions="false"] .nectar-parallax-enabled .parallax-layer.col
 
 .wpb_row.parallax_section .row-bg-wrap,
 .wpb_row .row-bg-wrap[data-bg-animation="zoom-out-reveal"] {
-	z-index: 2;
+	z-index: 2 !important;
 }
 
 .wpb_row .row-bg-wrap,
@@ -10677,7 +10677,7 @@ body.material .nectar-button.has-icon i {
 
   .full-width-section .light .nectar-button.wpb_animate_when_almost_visible:not(.see-through):not(.see-through-2):not(.see-through-3),
   body .nectar-button.wpb_animate_when_almost_visible{
-    opacity:0
+    opacity:0 !important
   }
 }
 
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
