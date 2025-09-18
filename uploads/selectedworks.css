@@ -22400,40 +22400,40 @@ Description: Global responsive styles
 
 .testimonial_slider[data-style*="multiple_visible"] blockquote p {
   text-align: left !important;
-  padding: 50px 50px 50px 100px !important;
-  border-radius: 10px !important;
-  margin-bottom: 40px !important;
-  transition: background-color 0.2s ease !important;
-  -webkit-transition: background-color 0.2s ease !mportant;
+  padding: 50px 50px 50px 100px ;
+  border-radius: 10px ;
+  margin-bottom: 40px ;
+  transition: background-color 0.2s ease ;
+  -webkit-transition: background-color 0.2s ease ;
   quotes: "\201C""\201D";
-  position: relative !important;
+  position: relative ;
 }
 
 .testimonial_slider[data-style="multiple_visible"] blockquote p .bottom-arrow {
-  position: absolute !important;
-  width: 28px !important;
-  height: 28px !important;
-  display: block !important;
-  border-radius: 5px !important;
-  overflow: hidden !important;
-  transform: rotate(-135deg) !important;
-  -ms-transform: rotate(-135deg) !important;
-  -webkit-transform: rotate(-135deg) !important;
-  top: 100% !important;
+  position: absolute ;
+  width: 28px ;
+  height: 28px ;
+  display: block ;
+  border-radius: 5px ;
+  overflow: hidden ;
+  transform: rotate(-135deg) ;
+  -ms-transform: rotate(-135deg) ;
+  -webkit-transform: rotate(-135deg) ;
+  top: 100% ;
   left: 50% ! important;
-  margin-left: -20px !important;
-  margin-top: -19px !important;
+  margin-left: -20px ;
+  margin-top: -19px ;
   opacity: 0;
-  transition: all 0.2s ease !important;
-  -webkit-transition: all 0.2s ease !important;
+  transition: all 0.2s ease ;
+  -webkit-transition: all 0.2s ease ;
 }
 
 .testimonial_slider[data-style="multiple_visible"] blockquote p .bottom-arrow:after {
   content: "";
   position: absolute;
-  top: 0 !important;
-  left: 0 !important;
-  width: 0px !important;
+  top: 0 ;
+  left: 0 ;
+  width: 0px ;
   height: 0px !important;
   border-style: solid !important;
   border-width: 22px 22px 0 0;
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
