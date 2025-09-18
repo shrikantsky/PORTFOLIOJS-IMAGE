@@ -22340,7 +22340,7 @@ Description: Global responsive styles
 }
 
 .full-width-content .testimonial_slider[data-style="multiple_visible"] .slides {
-  overflow: visible;
+  overflow: visible !important;
 }
 
 .testimonial_slider[data-style*="multiple_visible"] blockquote {
@@ -22353,39 +22353,39 @@ Description: Global responsive styles
 
 @media only screen and (min-width:1600px) {
   body .full-width-content .testimonial_slider[data-style="multiple_visible_minimal"].has-alf blockquote {
-    width: 29%;
+    width: 29% !important;
   }
 }
 
 @media only screen and (min-width:1300px) {
   .testimonial_slider[data-style="multiple_visible"] blockquote {
-    width: 33%;
+    width: 33% !important;
   }
 
   .testimonial_slider[data-style="multiple_visible_minimal"] blockquote {
-    width: 41%;
+    width: 41% !important;
   }
 }
 
 @media only screen and (min-width:1000px) and (max-width:1300px) {
   .testimonial_slider[data-style="multiple_visible"] blockquote {
-    width: 50%;
+    width: 50% !important;
   }
 
   .testimonial_slider[data-style="multiple_visible_minimal"] blockquote {
-    width: 39%;
+    width: 39% !important;
   }
 }
 
 @media only screen and (min-width:690px) and (max-width:1000px) {
   .testimonial_slider[data-style*="multiple_visible"] blockquote {
-    width: 60%;
+    width: 60% !important;
   }
 }
 
 @media only screen and (max-width:690px) {
   .testimonial_slider[data-style*="multiple_visible"] blockquote {
-    width: 85%;
+    width: 85% !important;
   }
 }
 
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
