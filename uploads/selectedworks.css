@@ -22340,7 +22340,7 @@ Description: Global responsive styles
 }
 
 .full-width-content .testimonial_slider[data-style="multiple_visible"] .slides {
-  overflow: visible !important;
+  overflow: visible ;
 }
 
 .testimonial_slider[data-style*="multiple_visible"] blockquote {
@@ -22353,39 +22353,39 @@ Description: Global responsive styles
 
 @media only screen and (min-width:1600px) {
   body .full-width-content .testimonial_slider[data-style="multiple_visible_minimal"].has-alf blockquote {
-    width: 29% !important;
+    width: 29% ;
   }
 }
 
 @media only screen and (min-width:1300px) {
   .testimonial_slider[data-style="multiple_visible"] blockquote {
-    width: 33% !important;
+    width: 33% ;
   }
 
   .testimonial_slider[data-style="multiple_visible_minimal"] blockquote {
-    width: 41% !important;
+    width: 41% ;
   }
 }
 
 @media only screen and (min-width:1000px) and (max-width:1300px) {
   .testimonial_slider[data-style="multiple_visible"] blockquote {
-    width: 50% !important;
+    width: 50% ;
   }
 
   .testimonial_slider[data-style="multiple_visible_minimal"] blockquote {
-    width: 39% !important;
+    width: 39% ;
   }
 }
 
 @media only screen and (min-width:690px) and (max-width:1000px) {
   .testimonial_slider[data-style*="multiple_visible"] blockquote {
-    width: 60% !important;
+    width: 60% ;
   }
 }
 
 @media only screen and (max-width:690px) {
   .testimonial_slider[data-style*="multiple_visible"] blockquote {
-    width: 85% !important;
+    width: 85% ;
   }
 }
 
@@ -22399,7 +22399,7 @@ Description: Global responsive styles
 }
 
 .testimonial_slider[data-style*="multiple_visible"] blockquote p {
-  text-align: left !important;
+  text-align: left ;
   padding: 50px 50px 50px 100px ;
   border-radius: 10px ;
   margin-bottom: 40px ;
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
