@@ -5217,7 +5217,7 @@ html body .full-width-content.vc_row-fluid .span_12 {
 /* FWC Gutters */
 @media only screen and ( max-width: 999px ) {
   .container-wrap .full-width-content .vc_row-fluid[data-column-margin*="px"] > .span_12 > .wpb_column {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
   }
 }
 
@@ -5487,22 +5487,22 @@ body[data-col-gap] .vc_row-fluid .span_12.post-area {
 
   .col.padding-4-percent > .vc_column-inner,
   .col.padding-5-percent > .vc_column-inner,
-  .col.padding-6-percent > .vc_column-inner { padding: calc(100vw * 0.06); }
+  .col.padding-6-percent > .vc_column-inner { padding: calc(100vw * 0.06) !important; }
 
-  .col.padding-7-percent > .vc_column-inner { padding: calc(100vw * 0.07); }
-  .col.padding-8-percent > .vc_column-inner { padding: calc(100vw * 0.08); }
-  .col.padding-9-percent > .vc_column-inner { padding: calc(100vw * 0.09); }
-  .col.padding-10-percent > .vc_column-inner { padding: calc(100vw * 0.1); }
-  .col.padding-11-percent > .vc_column-inner { padding: calc(100vw * 0.11); }
-  .col.padding-12-percent > .vc_column-inner { padding: calc(100vw * 0.12); }
-  .col.padding-13-percent > .vc_column-inner { padding: calc(100vw * 0.13); }
-  .col.padding-14-percent > .vc_column-inner { padding: calc(100vw * 0.14); }
-  .col.padding-15-percent > .vc_column-inner { padding: calc(100vw * 0.15); }
-  .col.padding-16-percent > .vc_column-inner { padding: calc(100vw * 0.16); }
-  .col.padding-17-percent > .vc_column-inner { padding: calc(100vw * 0.17); }
-  .col.padding-18-percent > .vc_column-inner { padding: calc(100vw * 0.18); }
-  .col.padding-19-percent > .vc_column-inner { padding: calc(100vw * 0.19); }
-  .col.padding-20-percent > .vc_column-inner { padding: calc(100vw * 0.2); }
+  .col.padding-7-percent > .vc_column-inner { padding: calc(100vw * 0.07) !important; }
+  .col.padding-8-percent > .vc_column-inner { padding: calc(100vw * 0.08) !important; }
+  .col.padding-9-percent > .vc_column-inner { padding: calc(100vw * 0.09) !important; }
+  .col.padding-10-percent > .vc_column-inner { padding: calc(100vw * 0.1) !important; }
+  .col.padding-11-percent > .vc_column-inner { padding: calc(100vw * 0.11) !important; }
+  .col.padding-12-percent > .vc_column-inner { padding: calc(100vw * 0.12) !important; }
+  .col.padding-13-percent > .vc_column-inner { padding: calc(100vw * 0.13) !important; }
+  .col.padding-14-percent > .vc_column-inner { padding: calc(100vw * 0.14) !important; }
+  .col.padding-15-percent > .vc_column-inner { padding: calc(100vw * 0.15) !important; }
+  .col.padding-16-percent > .vc_column-inner { padding: calc(100vw * 0.16) !important; }
+  .col.padding-17-percent > .vc_column-inner { padding: calc(100vw * 0.17) !important; }
+  .col.padding-18-percent > .vc_column-inner { padding: calc(100vw * 0.18) !important; }
+  .col.padding-19-percent > .vc_column-inner { padding: calc(100vw * 0.19) !important; }
+  .col.padding-20-percent > .vc_column-inner { padding: calc(100vw * 0.2) !important; }
 
   /* columns with border */
   .col.padding-1-percent[data-border-width*="px"] > .vc_column-inner,
@@ -5512,7 +5512,7 @@ body[data-col-gap] .vc_row-fluid .span_12.post-area {
   .col.padding-5-percent[data-border-width*="px"] > .vc_column-inner,
   .col.padding-6-percent[data-border-width*="px"] > .vc_column-inner,
   .col.padding-7-percent[data-border-width*="px"] > .vc_column-inner {
-    padding: calc(100vw * 0.09);
+    padding: calc(100vw * 0.09) !important;
   }
 
 }
@@ -5546,7 +5546,7 @@ body[data-col-gap] .vc_row-fluid .span_12.post-area {
   .column_container:not(.vc_col-sm-12) .col.padding-3-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.015); }
   .column_container:not(.vc_col-sm-12) .col.padding-4-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.02); }
   .column_container:not(.vc_col-sm-12) .col.padding-5-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.025); }
-  .column_container:not(.vc_col-sm-12) .col.padding-6-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.03); }
+  .column_container:not(.vc_col-sm-12) .col.padding-6-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.03) !important; }
   .column_container:not(.vc_col-sm-12) .col.padding-7-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.035); }
   .column_container:not(.vc_col-sm-12) .col.padding-8-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.04); }
   .column_container:not(.vc_col-sm-12) .col.padding-9-percent > .vc_column-inner { padding: calc((100vw - 180px) * 0.045); }
@@ -5701,8 +5701,8 @@ body #ajax-content-wrap .col[data-padding-pos="bottom"] > .vc_column-inner {
   padding-right:0
 }
 #ajax-content-wrap .col[data-padding-pos="top-bottom"]> .vc_column-inner {
-  padding-left:0;
-  padding-right:0
+  padding-left:0 !important;
+  padding-right:0 !important
 }
 #ajax-content-wrap .col[data-padding-pos="bottom-right"] > .vc_column-inner {
   padding-left:0;
@@ -6996,9 +6996,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
 	
 }
 
@@ -7036,7 +7036,7 @@ p:empty{
 article, aside, details, figcaption,
 figure, footer, header, hgroup,
 menu, nav, section{
-  display:block
+  display:block !important
 }
 
 
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
