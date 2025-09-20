@@ -27775,7 +27775,7 @@ body .wpb_gallery_slides ul li {
   .wpb_row.vc_row-flex>.fp-tableCell .full-page-inner-wrap-outer>.full-page-inner-wrap>.full-page-inner>.container>.span_12>.vc_column_container>.column-inner-wrap>.column-inner, 
   .vc_row.vc_row-o-equal-height .full-page-inner > .span_12 > .col .wpb_row >.container > .span_12 > .vc_column_container > .column-inner-wrap > .column-inner, 
   .wpb_row.vc_row-flex>.fp-tableCell .fp-scrollable > .fp-scroller .full-page-inner-wrap-outer > .full-page-inner-wrap>.full-page-inner>.container>.span_12>.vc_column_container>.vc_column-inner {
-    display: block;
+    display: block !important;
   }
 }
 
@@ -31716,6 +31716,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
