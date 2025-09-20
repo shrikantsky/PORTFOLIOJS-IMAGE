@@ -6829,8 +6829,8 @@ body.compose-mode .wpb_row.vc_row-flex>.fp-tableCell .fp-scrollable > .fp-scroll
   }
 
   .wpb_column:not([class*="vc_col-xs"]) {
-    width: 100%;
-    margin-bottom: 25px;
+    width: 100% !important;
+    margin-bottom: 25px !important;
   }
 
   body .vc_row-fluid .vc_col-sm-2:not([class*="vc_col-xs"]),
@@ -18323,7 +18323,7 @@ Description: Styles for the "Rotating Words Title" page builder element.
 @media only screen and (max-width: 690px) {
   .nectar-rotating-words-title[data-mobile="stacked"] .beginning-text,
   .nectar-rotating-words-title[data-mobile="stacked"] .ending-text {
-    display: block;
+    display: block !important;
   }
 }
 
@@ -20811,7 +20811,7 @@ Description: Global responsive styles
 @media only screen and (min-width: 470px) and (max-width: 990px) {
 
   .portfolio-items .elastic-portfolio-item {
-    width: 50%;
+    width: 50% !important;
   }
 
 }
@@ -20823,7 +20823,7 @@ Description: Global responsive styles
   .post.link .post-content .link-inner,
   .format-status .post-content .status-inner,
   .post.format-aside .aside-inner {
-    padding: 50px 10%;
+    padding: 50px 10% !important;
   }
 }
 
@@ -21065,18 +21065,18 @@ Description: Global responsive styles
 /*flickity responsive columns*/
 @media only screen and (max-width: 690px) {
   .nectar-flickity[data-tablet-columns="1"]:not(.masonry) .flickity-slider .cell {
-    width: 100%;
+    width: 100% !important;
   }
 
   .nectar-flickity.nectar-carousel[data-wrap="no-wrap"][data-controls="touch_total"] .flickity-slider .cell {
-    width: 80%;
+    width: 80% !important;
   }
 }
 
 @media only screen and (max-width: 480px) {
 
   .nectar-flickity.nectar-carousel[data-wrap="no-wrap"][data-controls="touch_total"] .flickity-slider .cell {
-    width: 90%;
+    width: 90% !important;
   }
 }
 
@@ -31716,5 +31716,6 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
