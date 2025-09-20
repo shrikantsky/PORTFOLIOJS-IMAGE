@@ -4845,18 +4845,18 @@ html body .vc_row-fluid > .span_12 > .wpb_column:not([class*="offset-"]),
 /* Default */
 .vc_row-fluid > .span_12,
 body[data-col-gap="default"] .vc_row-fluid[data-column-margin="default"]:not(.full-width-content) .full-page-inner > .container > .span_12 {
-  margin-left: -1%;
-  margin-right: -1%;
+  margin-left: -1% !important;
+  margin-right: -1% !important;
 }
 
 .vc_row-fluid > .span_12 .wpb_column,
 body[data-col-gap="default"] .vc_row-fluid[data-column-margin="default"]:not(.full-width-content) .full-page-inner > .container > .span_12 .wpb_column:not(.child_column) {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 1% !important;
+  padding-right: 1% !important;
 }
 
 body[data-col-gap*="px"] .wpb_wrapper > .wpb_row:last-child:not([data-column-margin*="px"]) {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 
@@ -31716,4 +31716,5 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
