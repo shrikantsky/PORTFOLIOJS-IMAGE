@@ -7140,9 +7140,9 @@ body{
   line-height:26px !important;
 }
 body:not(.nectar-no-flex-height) {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
 }
 @media only screen and (min-width: 1000px) {
   body.admin-bar:not(.nectar-no-flex-height) {
@@ -31716,3 +31716,4 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
