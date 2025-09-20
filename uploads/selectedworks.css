@@ -5478,7 +5478,7 @@ body[data-col-gap] .vc_row-fluid .span_12.post-area {
 
   body .wpb_column.col.no-extra-padding_phone > .vc_column-inner,
   body .wpb_column.child_column.col.no-extra-padding_phone > .vc_column-inner,
-  body .full-width-content .wpb_column.col.no-extra-padding_phone > .vc_column-inner { padding: 0; }
+  body .full-width-content .wpb_column.col.no-extra-padding_phone > .vc_column-inner { padding: 0 !important; }
 
   .col.padding-1-percent > .vc_column-inner { padding: calc(100vw * 0.01); }
 
@@ -31718,6 +31718,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
