@@ -9893,7 +9893,7 @@ html body .vc_row-fluid.legacy > .span_12 {
 
 .col.boxed img,
 .wpb_column.boxed img{
-  padding:0 15px !important
+  padding:0 15px
 }
 
 .col.boxed:not(.wpb_column):hover {
@@ -9903,30 +9903,30 @@ html body .vc_row-fluid.legacy > .span_12 {
 }
 
 .col.boxed.no-pointer-events{
-  pointer-events:none !important
+  pointer-events:none
 }
 
 .column-image-bg-wrap .column-image-bg[data-nectar-img-src],
 .row-bg-wrap .row-bg[data-nectar-img-src] {
-	opacity: 0 !important;
+	opacity: 0;
 }
 
 .column-image-bg-wrap .column-image-bg.loaded,
 .row-bg-wrap .row-bg.loaded,
 body[data-ajax-transitions] .parallax_section .row-bg.loaded,
 body[data-ajax-transitions] .parallax-layer.column-image-bg.loaded {
-	transition: opacity 0.4s ease 0.2s !important;
+	transition: opacity 0.4s ease 0.2s;
 }
 
 
 /* Center align content */
 .col.centered-text,
 .wpb_column.centered-text{
-  text-align:center !important
+  text-align:center
 }
 
 .centered-text .divider-small-border{
-  margin:25px auto !important
+  margin:25px auto
 }
 .centered-text .divider-border[data-animate="yes"],
 .centered-text .divider-small-border[data-animate="yes"]{
@@ -9936,20 +9936,20 @@ body[data-ajax-transitions] .parallax-layer.column-image-bg.loaded {
 
 body .col.centered-text ul,
 body .wpb_column.centered-text ul{
-  display:inline-blockn !important;
-  text-align:center !important;
-  margin-left:0 !important
+  display:inline-block;
+  text-align:center;
+  margin-left:0
 }
 .col.centered-text ul,
 .wpb_column.centered-text ul{
-  text-align:left !important
+  text-align:left
 }
 
 body .col.centered-text img,
 body .wpb_column.centered-text img,
 .col.center img{
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Background */
@@ -9961,35 +9961,35 @@ body .wpb_column.centered-text img,
 .wpb_column[data-has-bg-color="true"] .wpb_wrapper,
 .wpb_column[data-using-bg="true"] .wpb_wrapper,
 .wpb_column[data-hover-bg^="#"] .wpb_wrapper{
-  position:relative !important;
-  z-index:2 !important
+  position:relative;
+  z-index:2
 }
 .wpb_column .column-bg-overlay,
 .wpb_column .column-bg-overlay-wrap {
-  pointer-events: none !important;
-  position:absolute !important;
-  z-index:0 !important;
-  height:100% !important;
-  width:100% !important;
-  top:0 !important;
-  left:0 !important;
-  content:' '!important;
-  display:block !important;
-  opacity:0 !important;
-  transition:background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1) !important;
-  -webkit-transition:background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1) !important;
+  pointer-events: none;
+  position:absolute;
+  z-index:0;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  content:' ';
+  display:block;
+  opacity:0;
+  transition:background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1);
+  -webkit-transition:background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1);
 }
 
 .vc_column-inner .column-overlay-layer {
-	pointer-events: none !important;
-	position:absolute !important;
-	z-index:0 !important;
-	height:100% !important;
-	width:100% !important;
-	top:0 !important;
-	left:0 !important;
-	content:' ' !important;
-	display:block !important;
+	pointer-events: none;
+	position:absolute;
+	z-index:0;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	content:' ';
+	display:block;
 }
 
 .wpb_column .column-bg-overlay-wrap {
@@ -9998,12 +9998,12 @@ body .wpb_column.centered-text img,
 
 .column-link{
   position:absolute;
-  top:0 !important;
-  left:0 !important;
-  width:100% !important;
-  height:100% !important;
-  display:block !important;
-  z-index:10 !important
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:block;
+  z-index:10
 }
 
 
@@ -10018,17 +10018,17 @@ body .wpb_column.centered-text img,
   margin-bottom:0
 }
 body .wpb_text_column{
-  margin-bottom:0 !important
+  margin-bottom:0
 }
 .wpb_animate_when_almost_visible {
-  opacity: 0 !important;
+  opacity: 0;
 }
 .wpb_start_animation {
-  opacity: 1 !important;
+  opacity: 1;
 }
 body .wpb_text_column h2:last-child,
 body .wpb_text_column h3:last-child{
-  margin-bottom:10px !important
+  margin-bottom:10px
 }
 
 
@@ -10041,7 +10041,7 @@ body .wpb_text_column h3:last-child{
 /* yoast breadcrumbs */
 body[data-bg-header="true"].page .main-content > .row > #breadcrumbs.yoast,
 body[data-bg-header="true"].single-portfolio #full_width_portfolio .main-content > .row > #breadcrumbs.yoast {
-	padding-top: 20px !important;
+	padding-top: 20px;
 }
 
 
@@ -10049,112 +10049,112 @@ body[data-bg-header="true"].single-portfolio #full_width_portfolio .main-content
 
 /* Revolution Slider */
 rs-module video {
-	visibility: visible !important;
+	visibility: visible;
 }
 
 
 /* Orbit */
 .home-wrap {
-  padding-top:3em !important;
-  margin-bottom:0 !important;
-  padding-bottom:0 !important;
-  position:relative !important;
-  z-index:100 !important;
+  padding-top:3em;
+  margin-bottom:0;
+  padding-bottom:0;
+  position:relative;
+  z-index:100;
   background-color:#f8f8f8
 }
 html:not(.js) .home-wrap{
-  padding-top:0 !important
+  padding-top:0
 }
 .home-wrap .full-width-section.first-section{
-  margin-top:-37px !important
+  margin-top:-37px
 }
 
 /* WP Job Manager */
 .single_job_listing .company img {
-	height: 3em !important;
+	height: 3em;
 }
 .single_job_listing .meta li {
-	list-style: none !important;
+	list-style: none;
 }
 
 /* Flexslider */
 .flex-gallery{
-  margin:0 !important;
-  padding:0 !important
+  margin:0;
+  padding:0
 }
 .flex-gallery .slides >li{
-  display:none !important;
-  -webkit-backface-visibility:hidden !important
+  display:none;
+  -webkit-backface-visibility:hidden
 }
 .flex-gallery .slides img{
-  width:99.8% !important;
-  display:block !important
+  width:99.8%;
+  display:block
 }
 .flex-pauseplay span{
-  text-transform:capitalize !important
+  text-transform:capitalize
 }
 .slides:after{
-  content:"." !important;
-  display:block !important;
-  clear:both !important;
-  visibility:hidden !important;
-  line-height:0 !important;
-  height:0 !important
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0
 }
 html[xmlns] .slides{
-  display:block !important
+  display:block
 }
 * html .slides{
-  height:1% !important
+  height:1%
 }
 .no-js .slides >li:first-child{
-  display:block !important
+  display:block
 }
 .flex-gallery{
-  margin:0 0 15px !important;
-  position:relative !important;
-  zoom:1 !important;
-  background-color:transparent !important
+  margin:0 0 15px;
+  position:relative;
+  zoom:1;
+  background-color:transparent
 }
 .flex-viewport{
-  max-height:2000px !important;
-  -webkit-transition:all 1s ease !important;
-  transition:all 1s ease !important
+  max-height:2000px;
+  -webkit-transition:all 1s ease;
+  transition:all 1s ease
 }
 .loading .flex-viewport{
-  max-height:300px !important
+  max-height:300px
 }
 .flex-gallery .slides{
-  zoom:1 !important
+  zoom:1
 }
 .flex-gallery ul{
-  position:relative !important;
-  z-index:1000 !important;
-  margin:0 !important
+  position:relative;
+  z-index:1000;
+  margin:0
 }
 .flex-gallery .flex-direction-nav{
-  margin:0 !important;
-  position:absolute !important;
-  top:8px !important
+  margin:0;
+  position:absolute;
+  top:8px
 }
 .flex-gallery ul li{
-  list-style:none !important
+  list-style:none
 }
 .flex-gallery ul li img{
-  margin-bottom:0 !important
+  margin-bottom:0
 }
 .carousel li{
-  margin-right:0 !important;
-  margin-left:0 !important
+  margin-right:0;
+  margin-left:0
 }
 .flex-control-nav{
-  display:none !important
+  display:none
 }
 .flex-direction-nav{
-  *height:0 !important
+  *height:0
 }
 .flex-direction-nav a{
-  display:block !important;
+  display:block;
   line-height:22px;
   position:relative;
   background-color:#000;
