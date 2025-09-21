@@ -8909,54 +8909,54 @@ body[data-hhun="0"] #header-outer[data-header-resize="0"]:not([data-transparent-
     line-height: 0 !important;
   }
   #header-outer[data-format="centered-logo-between-menu"] #top .span_9 {
-    text-align: right;
-    z-index: 10000;
-    left: auto;
+    text-align: right !important;
+    z-index: 10000 !important;
+    left: auto !important;
   }
   #top .span_9 >.slide-out-widget-area-toggle > div,
   #header-outer .mobile-search .icon-salient-search,
   #header-outer #top #mobile-cart-link i,
   #header-outer .mobile-user-account .icon-salient-m-user {
-    position: relative;
-    display: block;
-    top: 50%;
-    font-size: 18px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background-color: transparent;
+    position: relative !important;
+    display: block !important;
+    top: 50% !important;
+    font-size: 18px !important;
+    -webkit-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+    background-color: transparent !important;
   }
   #top .span_9 >.slide-out-widget-area-toggle,
   #top #mobile-cart-link,
   #top .mobile-search,
   #header-outer #top .mobile-user-account {
-    position: relative;
-    width: auto;
-    padding: 0 7px;
-    top: auto;
-    right: auto;
-    margin-bottom: 0;
-    margin-top: 0;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 0;
-    height: 100%;
-    -webkit-transform: none;
-    transform: none;
+    position: relative !important;
+    width: auto !important;
+    padding: 0 7px !important;
+    top: auto !important;
+    right: auto !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    line-height: 0 !important;
+    height: 100% !important;
+    -webkit-transform: none !important;
+    transform: none !important;
   }
 
 	body[data-slide-out-widget-area-style="slide-out-from-right"].material a.slide_out_area_close:before,
   body[data-slide-out-widget-area-style="slide-out-from-right"] .slide_out_area_close:before {
-    background-color: rgba(0,0,0,.06);
+    background-color: rgba(0,0,0,.06)!important;
   }
   #header-outer[data-cart="true"] #top .span_9 >.slide-out-widget-area-toggle,
   #header-outer[data-cart="true"] #top #mobile-cart-link,
   #top .mobile-search {
-    padding: 0 8px;
+    padding: 0 8px !important;
   }
 
   #header-outer[data-cart="true"] #top .row .span_9 > .slide-out-widget-area-toggle,
   #top .span_9 >.slide-out-widget-area-toggle {
-    padding-right: 0;
+    padding-right: 0 !important;
   }
   #search-outer #search #close a:before,
 	body[data-header-format="left-header"] #search-outer #search #close a:before,
@@ -31716,6 +31716,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
