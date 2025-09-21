@@ -9850,6 +9850,8 @@ html body .vc_row-fluid.legacy > .span_12 {
   body .vc_row.vc_row-flex.vc_row-o-equal-height > .span_12,
   body .vc_row.vc_row-flex.vc_row-o-equal-height>.span_12>.vc_column_container>.vc_column-inner,
   body .vc_row.vc_row-flex.vc_row-o-equal-height>.span_12>.vc_column_container {
+	 display: -webkit-flex !important;
+    display: flex !important;
    
   }
 }
@@ -31715,6 +31717,7 @@ Author URI:  https://themeforest.net/user/themenectar
 Template: salient
 Version: 1.0
 */
+
 
 
 
